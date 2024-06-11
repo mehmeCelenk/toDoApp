@@ -1,0 +1,23 @@
+body {
+    background-color: #f7f7f7;
+}
+
+#todo-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+#todo-list {
+    max-width: 400px;
+    margin: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .badge {
+    cursor: pointer;
+}

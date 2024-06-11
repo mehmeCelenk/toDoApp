@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ToDo App</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  body { padding-top: 50px; }
+  .container { max-width: 600px; }
+  .completed { text-decoration: line-through; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2 class="text-center mb-4">ToDo List</h2>
+  <div id="todo-form" class="mb-3">
+    <input type="text" id="description" class="form-control" placeholder="Add a new task...">
+    <button onclick="createToDo()" class="btn btn-primary btn-block mt-2">Add Task</button>
+  </div>
+  <ul id="todo-list" class="list-group">
+   
+  </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
